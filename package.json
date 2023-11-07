@@ -1,0 +1,30 @@
+{
+  "name": "browserstack-examples-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "browserstack-local": "^1.4.8",
+    "playwright": "^1.38.1",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "browserstack-node-sdk": "^1.30.0",
+    "source-map-loader": "^4.0.1",
+    "ts-loader": "^9.4.2"
+  },
+  "scripts": {
+    "bstack-single-browserstack": "npx browserstack-node-sdk playwright test login.spec.ts --config=resources/conf/playwright-bstack.config.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princebaretto99/browserstack-examples-playwright.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/princebaretto99/browserstack-examples-playwright/issues"
+  },
+  "homepage": "https://github.com/princebaretto99/browserstack-examples-playwright#readme"
+}
