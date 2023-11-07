@@ -4,8 +4,8 @@
   <img src="https://surreyschoolsone.ca/cms-data/gallery/blog/resources/adobe-express/adobeexpress.jpg" width="200" height="150" title="AdobeExpress">
 </p>
 
-# BrowserStack / Adobe Express - Automate + CircleCI + Test Observability + Test Management
-This repo contains a sample project for running [Playwright](https://playwright.dev/docs/intro) tests on BrowserStack using the browserstack-node-sdk. It is connected to a CircleCI pipeline, and links to Test Observability and Test Management.
+# BrowserStack / Adobe Express - BrwserStack SDK + Playwright + TypeScript
+This repo contains a sample project for running [Playwright](https://playwright.dev/docs/intro) tests on BrowserStack SDK using the browserstack-node-sdk. The project is also set up to use Typescript.
 
 ## Setup
 
